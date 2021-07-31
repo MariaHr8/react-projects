@@ -1,10 +1,7 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: antiquewhite;
+  margin: 0px 20%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +32,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  background-color: pink;
+}
+
+.container button{
+  width: 80%;
+  margin-bottom: 20px;
+  background-color:pink;  
 }
